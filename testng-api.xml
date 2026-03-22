@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Suite">
+
+    <listeners>
+        <listener class-name="com.automation.framework.listeners.TestListener"/>
+        <listener class-name="com.automation.framework.listeners.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="API Tests">
+        <classes>
+            <class name="com.automation.framework.api.UserTest"/>
+            <class name="com.automation.framework.api.BankAccountTest"/>
+        </classes>
+    </test>
+
+</suite>
