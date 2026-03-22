@@ -83,20 +83,6 @@ reports/screenshots/
 
 ---
 
-## Jenkins Execution
-
-1. Create a Jenkins job
-2. Configure Maven build step
-3. Use command:
-
-mvn clean test -DsuiteXmlFile=testng-ui.xml
-
-4. Publish HTML report from:
-
-reports/
-
----
-
 ## Notes
 
 - Tests support parallel execution using ThreadLocal WebDriver
