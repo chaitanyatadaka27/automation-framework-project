@@ -19,7 +19,6 @@ public class BankAccountPage {
     private By deleteBtn = By.xpath("(//table//tbody//button[contains(@class,'btn-danger')])[1]");
     private By confirmDeleteBtn = By.id("jhi-confirm-delete-bankAccount");
 
-    // FIXED locator
     private By successAlert = By.xpath("//ngb-alert");
 
     private By createBankAcc = By.xpath("//span[@jhitranslate='jhipsterSampleApplicationApp.bankAccount.home.createLabel']");

@@ -9,8 +9,7 @@ import java.util.List;
 @Data
 public class UserResponse {
 
-    private Long id;   // 🔥 ADD THIS
-
+    private Long id;
     private String login;
     private String firstName;
     private String lastName;

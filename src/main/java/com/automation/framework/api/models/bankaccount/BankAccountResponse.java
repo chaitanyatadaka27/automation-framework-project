@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true) // 🔥 IMPORTANT
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class BankAccountResponse {
 
     private int id;

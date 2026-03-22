@@ -9,7 +9,6 @@ public class CreateBankAccountPage {
     private By balanceField = By.id("field_balance");
     private By saveBtn = By.id("save-entity");
 
-    // FIXED (your actual DOM)
     private By successMessage = By.xpath("//pre[contains(text(),'Bank Account')]");
 
     public void enterName(String name) {
